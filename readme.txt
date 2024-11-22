@@ -1,3 +1,5 @@
+    <----- GIT TUTORIAL ----->
+
 # hello-world
 Hello World repository for Git tutorial
 This is an example repository for the Git tutoial on https://www.w3schools.com
@@ -14,3 +16,32 @@ Short status flags are:
     A  - Files added to stage
     M  - Modified files
     D  - Deleted files
+
+* Files in your Git repository folder can be in one of 2 states:
+1- Tracked - files that Git know about and are added to the repository.
+2- Untracked - files that are in your working directory, but not added to the repository.
+
+* Staged files are files that are ready to be commited to the repository.
+
+* Adding commits keep track of our progress and changes as we work. Git considers each commit change point or 'save point'.
+It is a point in the project you can go back to if you find a bug, or want to make a change. 
+When we commit, we always should include a message. It will make it easy for us and others to see what has changed.
+
+
+    GIT Commands:
+
+-> -- version                                                   To check if git is properly installed. If its installed you should be able to see st like "git version X.Y"
+-> git config --global user.name "your-username"                Use this 2 to let Git know who ypu are.
+-> git config -- global user.email "your-email-address"         Use this 2 to let Git know who ypu are.
+-> mkdir myproject                                              Makes a new directory.
+-> cd myproject                                                 Changes the current working directory.
+-> git init                                                     You created a Git repository.
+-> ls                                                           It will list the fils in the directory.
+-> git status                                                   Now Git is aware of the file, but has not added to our repository.
+-> git add file_name                                            We added our file to the Staging Environment.
+-> git add --all   (Shoth hand command: git add -A)             We added all our files to to Staging Environment at once.
+-> git commit -m "Your message"                                 Adds a message to our commit.
+-> git commit -a -m "Your message"                              It will automatically stage what changed and commit with a message.
+-> git log                                                      It will show us the history of commits for our repository.
+-> git command -help  or   git help --all                       You can use this command if you are having trouble remembering commands.
+->
