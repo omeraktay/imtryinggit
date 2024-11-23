@@ -31,7 +31,7 @@ When we commit, we always should include a message. It will make it easy for us 
 Branches allow you to work on different parts of a projecct without impacting the main branch.
 When the work is complete, a branch can be merged with the main project.
 
-
+*We can change our file on GitHub.
 
     GIT Commands:
 
