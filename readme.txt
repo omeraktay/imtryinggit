@@ -27,6 +27,11 @@ Short status flags are:
 It is a point in the project you can go back to if you find a bug, or want to make a change. 
 When we commit, we always should include a message. It will make it easy for us and others to see what has changed.
 
+*In Git, a branch is a new/seperate version of the main repository. 
+Branches allow you to work on different parts of a projecct without impacting the main branch.
+When the work is complete, a branch can be merged with the main project.
+
+
 
     GIT Commands:
 
@@ -44,4 +49,5 @@ When we commit, we always should include a message. It will make it easy for us 
 -> git commit -a -m "Your message"                              It will automatically stage what changed and commit with a message.
 -> git log                                                      It will show us the history of commits for our repository.
 -> git command -help  or   git help --all                       You can use this command if you are having trouble remembering commands.
-->
+-> git branch new-branch-name                                   We created a new branch.
+-> git checkout branch-name                                     Checkout is the command used to check out a branch.move us from current one to specified one.
