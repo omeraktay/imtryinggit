@@ -51,3 +51,4 @@ When the work is complete, a branch can be merged with the main project.
 -> git command -help  or   git help --all                       You can use this command if you are having trouble remembering commands.
 -> git branch new-branch-name                                   We created a new branch.
 -> git checkout branch-name                                     Checkout is the command used to check out a branch.move us from current one to specified one.
+** Using the -b option on checkout will create a new branch, and move to it, if it does not exist.
