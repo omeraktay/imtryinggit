@@ -52,3 +52,6 @@ When the work is complete, a branch can be merged with the main project.
 -> git branch new-branch-name                                   We created a new branch.
 -> git checkout branch-name                                     Checkout is the command used to check out a branch.move us from current one to specified one.
 ** Using the -b option on checkout will create a new branch, and move to it, if it does not exist.
+-> git branch -d branch-name                                    Deletes the branch.
+-> git remote add origin URL                                    Specifies that you are adding a remote repository, with the specified URL, as an origin to your local Git repo.
+->
