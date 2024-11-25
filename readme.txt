@@ -62,4 +62,7 @@ pull is a combination fof 2 different command: fetch and merge.
 ** Using the -b option on checkout will create a new branch, and move to it, if it does not exist.
 -> git branch -d branch-name                                    Deletes the branch.
 -> git remote add origin URL                                    Specifies that you are adding a remote repository, with the specified URL, as an origin to your local Git repo.
-->
+-> git fetch origin                                             Get all the change history of the origin for this branch.
+-> git merge origin/master                                      Merges the current branch with the branch master, on origin.
+-> git pull origin                                              Updates the current branch from its origin using a single command.
+-> 
