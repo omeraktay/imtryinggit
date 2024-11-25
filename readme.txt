@@ -42,6 +42,8 @@ pull is a combination fof 2 different command: fetch and merge.
 
 *We can use -push- to push our code to GitHub.
 
+*We can create a new branch on GitHub, and we can pull from it.
+
 
     GIT Commands:
 
