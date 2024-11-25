@@ -33,6 +33,14 @@ When the work is complete, a branch can be merged with the main project.
 
 *We can change our file on GitHub.
 
+*When working as a team on a project, it is important that everyone stays up to date.anytime you start working on a project, 
+you should get the most recent changes to your local copy. With Git, you can do that with 'pull'.
+pull is a combination fof 2 different command: fetch and merge.
+- fetch gets all the change history of a tracked branch/repo. So, on your local Git, fetch updates to see what has changed on GitHub.
+- merge combines the current branch, with a specified branch.
+- pull is a combination of fetch and merge. It is used to pull all changes from a remote repository into the branch you are working on.
+
+
     GIT Commands:
 
 -> -- version                                                   To check if git is properly installed. If its installed you should be able to see st like "git version X.Y"
@@ -50,7 +58,7 @@ When the work is complete, a branch can be merged with the main project.
 -> git log                                                      It will show us the history of commits for our repository.
 -> git command -help  or   git help --all                       You can use this command if you are having trouble remembering commands.
 -> git branch new-branch-name                                   We created a new branch.
--> git checkout branch-name                                     Checkout is the command used to check out a branch.move us from current one to specified one.
+-> git checkout branch-name                                     Checkout is the command used to check out a branch. Move us from current one to specified one.
 ** Using the -b option on checkout will create a new branch, and move to it, if it does not exist.
 -> git branch -d branch-name                                    Deletes the branch.
 -> git remote add origin URL                                    Specifies that you are adding a remote repository, with the specified URL, as an origin to your local Git repo.
