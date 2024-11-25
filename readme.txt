@@ -63,10 +63,12 @@ pull is a combination fof 2 different command: fetch and merge.
 -> git command -help  or   git help --all                       You can use this command if you are having trouble remembering commands.
 -> git branch new-branch-name                                   We created a new branch.
 -> git checkout branch-name                                     Checkout is the command used to check out a branch. Move us from current one to specified one.
-** Using the -b option on checkout will create a new branch, and move to it, if it does not exist.
+-> git checkout -b                                              Is the option on checkout will create a new branch, and move to it, if it does not exist.
 -> git branch -d branch-name                                    Deletes the branch.
 -> git remote add origin URL                                    Specifies that you are adding a remote repository, with the specified URL, as an origin to your local Git repo.
 -> git fetch origin                                             Get all the change history of the origin for this branch.
 -> git merge origin/master                                      Merges the current branch with the branch master, on origin.
 -> git pull origin                                              Updates the current branch from its origin using a single command.
 -> git push origin                                              We push our changes to our remote origin.
+-> git branch -a                                                Lists all local and remote branches os the current Git.
+-> git branch -r                                                Lists only remote branches of the current Git.
