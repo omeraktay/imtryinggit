@@ -72,3 +72,4 @@ pull is a combination fof 2 different command: fetch and merge.
 -> git push origin                                              We push our changes to our remote origin.
 -> git branch -a                                                Lists all local and remote branches os the current Git.
 -> git branch -r                                                Lists only remote branches of the current Git.
+-> git push origin branch-name                                  Pushes the new branch to GitHub.
