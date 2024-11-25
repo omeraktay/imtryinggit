@@ -40,6 +40,8 @@ pull is a combination fof 2 different command: fetch and merge.
 - merge combines the current branch, with a specified branch.
 - pull is a combination of fetch and merge. It is used to pull all changes from a remote repository into the branch you are working on.
 
+*We can use -push- to push our code to GitHub.
+
 
     GIT Commands:
 
@@ -65,4 +67,4 @@ pull is a combination fof 2 different command: fetch and merge.
 -> git fetch origin                                             Get all the change history of the origin for this branch.
 -> git merge origin/master                                      Merges the current branch with the branch master, on origin.
 -> git pull origin                                              Updates the current branch from its origin using a single command.
--> 
+-> git push origin                                              We push our changes to our remote origin.
